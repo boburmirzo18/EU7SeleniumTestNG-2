@@ -16,6 +16,7 @@ public class RadioButtonTest {
         driver.manage().window().fullscreen();
         driver.get("http://practice.cydeo.com/radio_buttons");
 
+
         //locating radio button
 
         WebElement blue = driver.findElement(By.cssSelector("#blue"));
