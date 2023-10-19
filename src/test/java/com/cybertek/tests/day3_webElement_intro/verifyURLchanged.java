@@ -1,4 +1,5 @@
 package com.cybertek.tests.day3_webElement_intro;
+
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +25,7 @@ public class verifyURLchanged {
         driver.get("http://practice.cybertekschool.com/forgot_password");
 
         //enter any email
+
         WebElement emailInputBox = driver.findElement(By.name("email"));
 
         //sendKeys()--> send keyboard action to the webelement
